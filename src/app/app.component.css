@@ -1,0 +1,216 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: #006595;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Hero section */
+.hero {
+  background-image: url('/src/assets/myphoto.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Features section */
+.features {
+  padding: 40px 0;
+}
+
+.features h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.features ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.features ul li .icon {
+  margin-right: 10px;
+}
+
+/* Pricing section */
+.pricing {
+  padding: 40px 0;
+  background-color: #f7f7f7;
+}
+
+.pricing h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing ul {
+  list-style: none;
+}
+
+.pricing ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pricing ul li .icon {
+  margin-right: 10px;
+}
+
+.pricing .highlight {
+  background-color: #006595;
+  color: #fff;
+  padding: 20px;
+}
+
+.pricing .highlight h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Testimonials section */
+.testimonials {
+  padding: 40px 0;
+}
+
+.testimonials h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonial {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonials .testimonial small {
+  font-weight: bold;
+}
+
+/* Contact section */
+.contact {
+  padding: 40px 0;
+}
+
+.contact h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  background-color: #006595;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #004b66;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
